@@ -7,7 +7,7 @@
 /* html, body{
     width:100%;
     height: 100%; */
-}
+/* } */
 body{
     background-color: aliceblue;
 }
@@ -27,6 +27,7 @@ nav{
 .nav-left ul li{
     list-style: none;
     display: inline-block;
+    cursor: pointer;
 }
 .logo{
     width: 48px;
@@ -85,4 +86,123 @@ nav{
     position: absolute;
     top: 63%;
     right: 0;
+}
+
+
+/*<<<<<<<<<<<<<<<<<<<<<<< main content start >>>>>>>>>>>>>>>>>>>*/
+
+
+
+.main{
+    display: flex;
+}
+
+/*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< leftside panel>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+li{
+    cursor: pointer;
+}
+
+
+/* top menus of left side bar */
+
+.leftside{
+    height: 100vh;
+    width: 25%;
+    background-color: #c2daf8;
+    position: sticky;
+}
+
+.leftside .leftmenu{
+    width: 100%;
+    height: 50%;
+    /* background-color: rebeccapurple; */
+}
+
+.leftside .leftmenu{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* justify-content: space-evenly; */
+    padding-top: 8px;
+
+}
+
+.leftmenu ol{
+    text-decoration: none;
+    list-style: none;
+    padding-left: 20px;
+}
+.leftmenu li{
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.leftmenu{
+    font-size: 16px;
+    font-weight: 400;
+}
+.leftmenu img{
+    width: 30px;
+    border-radius: 50%;
+}
+.leftside .shortcut{
+    width: 100%;
+    height: 50%;
+    /* background-color: rgb(33, 141, 11); */
+}
+
+
+/* bottom your shortcuts area */
+
+.shortcut{
+    display: flex;
+    flex-direction: column;
+}
+
+.shortcut h4{
+    margin: 8px 10px;
+}
+.shortcut ol{
+    text-decoration: none;
+    list-style: none;
+    padding-left: 20px;
+}
+
+.shortcut li{
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.shortcut img{
+    width: 30px;
+    border-radius: 50%;
+}
+.shortcut p{
+    padding-left: 20px;
+    font-size: 12px;
+    margin-top: 8px;
+}
+
+
+
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<      Right side      >>>>>>>>>>>>>>>>>*/
+
+.rightside{
+    height: 100vh;
+    width: 25%;
+    background-color: #c2daf8;
+    position: sticky;
+}
+
+
+/* <<<<<<<<<<<<<<<<<<<<<<<<<                   news feed          >>>>>>>>>>>>>>>>>>> */
+.feed{
+    width: 50%;
+    background-color: red;
+    position: sticky;
 }
