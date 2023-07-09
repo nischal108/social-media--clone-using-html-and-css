@@ -199,6 +199,98 @@ li{
     position: sticky;
 }
 
+.page{
+    padding: 10px 30px;
+}
+
+.page h2{
+    font-size: 15px;
+    font-weight: 700;
+}
+.page-name{
+    font-size: 13px;
+    font-weight: 600;
+}
+.page img{
+    width: 20px;
+    border-radius: 50%;
+}
+
+ li .page-icon{
+    width: 30px;
+}
+ol p{
+    font-size: 11px;
+}
+
+.page ol{
+    list-style: none;
+    padding-top: 5px;
+}
+
+ol li{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+
+
+
+/* birthdays section */
+
+.birthdays{
+    padding: 10px 30px;
+}
+
+.birthdays h2{
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.birthdays .content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 10px 0;
+}
+
+.content p{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+
+
+/* contact */
+
+
+.contact{
+padding: 0px 25px;
+
+}
+.contact h2{
+    font-size: 15px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.contact ol li img{
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+ol li{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px
+}
+
+
 
 /* <<<<<<<<<<<<<<<<<<<<<<<<<                   news feed          >>>>>>>>>>>>>>>>>>> */
 .feed{
