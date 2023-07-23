@@ -16,7 +16,7 @@ nav{
     align-items: center;
     justify-content: space-between;
     background-color: #6fb0ff;
-    padding: 5px 5%;
+    padding: 0.2rem 5%;
 }
 .nav-left, .nav-right{
     display: flex;
@@ -31,7 +31,7 @@ nav{
 }
 .logo{
     width: 48px;
-    margin: 5px 15px;
+    margin: 0.5rem 2rem;
 }
 .logo{
     width: 250px;
@@ -43,28 +43,28 @@ nav{
 
 }
 .nav-left ul li img{
-    width: 25px;
-    margin: 0 15px;
+    width: 1.5rem;
+    margin: 0 1.5rem;
 }
 /* .nav-right{
     justify-content: end;
 } */
 .nav-user-icon img{
-    width: 40px;
+    width: 3rem;
     border-radius: 50%;
     cursor: pointer;
     margin-left: 30px;
 }
 .search-box{
     background: #efefef;
-    width: 350px;
+    width: 15rem;
     border-radius: 20px;
     display: flex;
     align-items: center;
     padding: 0 15px;
 }
 .search-box img{
-    width: 20px;
+    width: 1.2rem;
 }
 .search-box input{
     width: 100%;
@@ -78,8 +78,8 @@ nav{
 }
 .online::after{
     content: '';
-    width: 7px;
-    height: 7px;
+    width: 0.7rem;
+    height: 0.7rem;/
     border: 2px solid #fff;
     border-radius: 50%;
     background-color: #41DB51;
@@ -295,8 +295,11 @@ ol li{
 /* <<<<<<<<<<<<<<<<<<<<<<<<<                   news feed          >>>>>>>>>>>>>>>>>>> */
 .feed{
     width: 50%;
-    background-color: #cae2ff;
+    background-color: #cae2ee;
     position: sticky;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
 }
 
 .story-container{
@@ -304,7 +307,7 @@ ol li{
     /* height: 20%; */
     padding: 10px 20px;
     display: flex;
-    gap: 20px;
+    gap: 8px;
     overflow: hidden;
 }
 
@@ -317,10 +320,6 @@ ol li{
     background-position: top;
 }
 
-.feed .my-profile{
-    /* position: absolute;
-    bottom: 0%; */
-}
 
 .my-profile .smallrectangle{
     height: 25px;
@@ -363,3 +362,36 @@ ol li{
 .story5{
     background-image: url(media/human3.jpg);
 }
+
+
+
+/* news feed */
+.info img{
+    width: 3rem;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-left: 30px;
+}
+
+.container_post{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+
+
+
+/* <!-- news feed
+<div class="container_post">
+    <div class="post1">
+        <div class="info">
+            <img src="media/human1.jpg" alt="">
+            <div class="details">
+                <p><strong>Salman Khan</strong> is at <strong>farm house</strong> with <strong> cat and 99 others.</strong></p>
+                <p class="small">8m   Farm house </p>
+            </div>
+        </div>
+        <div class="media"></div>
+    </div>
+</div> */
